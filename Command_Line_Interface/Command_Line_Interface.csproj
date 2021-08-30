@@ -6,4 +6,20 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="INI_LIB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Loger\INI_LIB\bin\Debug\net5.0\INI_LIB.dll</HintPath>
+      </Reference>
+      <Reference Include="Ini_lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\Ini_lib\bin\Debug\net5.0\Ini_lib.dll</HintPath>
+      </Reference>
+      <Reference Include="Log_file, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\Log_file\bin\Debug\net5.0\Log_file.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\User\User.csproj" />
+    </ItemGroup>
+
 </Project>

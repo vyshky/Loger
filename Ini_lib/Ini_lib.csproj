@@ -5,4 +5,18 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Command_Line_Interface\Command_Line_Interface.csproj" />
+      <ProjectReference Include="..\User\User.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Log_file, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\Log_file\bin\Debug\net5.0\Log_file.dll</HintPath>
+      </Reference>
+      <Reference Include="User, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\User\bin\Debug\net5.0\User.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

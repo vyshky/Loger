@@ -1,12 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Command_Line_Interface\Command_Line_Interface.csproj" />
       <ProjectReference Include="..\Ini_lib\Ini_lib.csproj" />
     </ItemGroup>
 
