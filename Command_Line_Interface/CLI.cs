@@ -70,7 +70,7 @@ namespace Command_Line_Interface
                         settings.Writer(parametrs);
                         break;
                     case '3':
-                        Console.WriteLine("Введите section,key,parametr разделяи их запятыми или пробелом");
+                        Console.WriteLine("Введите section,key,parametr разделяи их запятыми");
                         string String = Convert.ToString(Console.ReadLine());
                         string[] str = String.Split(',');
                         //settings.Seeker("[Menu2]", "MyNewParametr1", "True ");
